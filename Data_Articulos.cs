@@ -70,29 +70,33 @@ namespace ProyectoTiendita
                 {
                     query = "insert into tb_articulos (descripcion_ar," +
                         "marca_ar, " +
+                        "codigo_ar, " +
                         "codigo_um, " +
                         "codigo_ca, " +
                         "stock_actual_ar, " +
                         "fecha_crea, " +
                         "fecha_modifica) " +
-                        "values ('"+oAr.Descripcion_ar+"', " +
-                        "'"+oAr.Marca_ar+"', " +
-                        "'"+oAr.Codigo_um+"', " +
-                        "'"+oAr.Codigo_ca+"', " +
-                        "'"+oAr.Stock_actual+"', " +
-                        "'"+oAr.Fecha_crea+"', " +
-                        "'"+oAr.Fecha_modifica+"')";
-                        
+                        "values ('"+oAr.descripcion_ar+"', " +
+                        "'"+oAr.marca_ar+"', " +
+                        "'"+oAr.codigo_ar+"', "+
+                        "'"+oAr.codigo_um+"', " +
+                        "'"+oAr.codigo_ca+"', " +
+                        "'"+oAr.stock_actual+"', " +
+                        "'"+oAr.fecha_crea+"', " +
+                        "'"+oAr.fecha_modifica+"')";
+
+
+                       
                 }
                 else //Actualizar Registro
                 {
-                    query = "update tb_articulos set descripcion_ar= '" + oAr.Descripcion_ar + "'," +
-                                "marca_ar='" + oAr.Marca_ar + "'," +
-                                "codigo_um='" + oAr.Codigo_um + "'," +
-                                "codigo_ca='" + oAr.Codigo_ca + "'," +
-                                "stock_actual_ar='" + oAr.Stock_actual + "'," +
-                                "fecha_modifica='" + oAr.Fecha_modifica + "'" +
-                                " where codigo_ar='" + oAr.Codigo_ar + "'";
+                    query = "update tb_articulos set descripcion_ar= '" + oAr.descripcion_ar + "'," +
+                                "marca_ar='" + oAr.marca_ar + "'," +
+                                "codigo_um='" + oAr.codigo_um + "'," +
+                                "codigo_ca='" + oAr.codigo_ca + "'," +
+                                "stock_actual_ar='" + oAr.stock_actual + "'," +
+                                "fecha_modifica='" + oAr.fecha_modifica + "'" +
+                                " where codigo_ar='" + oAr.codigo_ar + "'";
                 }
                 MySqlCommand Comando = new MySqlCommand(query, SqlCon);
                 SqlCon.Open();

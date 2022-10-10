@@ -68,7 +68,7 @@
             // txt_descripcion
             // 
             this.txt_descripcion.Location = new System.Drawing.Point(148, 46);
-            this.txt_descripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_descripcion.Margin = new System.Windows.Forms.Padding(2);
             this.txt_descripcion.Name = "txt_descripcion";
             this.txt_descripcion.ReadOnly = true;
             this.txt_descripcion.Size = new System.Drawing.Size(144, 20);
@@ -77,7 +77,7 @@
             // txt_umedida
             // 
             this.txt_umedida.Location = new System.Drawing.Point(148, 93);
-            this.txt_umedida.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_umedida.Margin = new System.Windows.Forms.Padding(2);
             this.txt_umedida.Name = "txt_umedida";
             this.txt_umedida.ReadOnly = true;
             this.txt_umedida.Size = new System.Drawing.Size(144, 20);
@@ -97,7 +97,7 @@
             // txt_marca
             // 
             this.txt_marca.Location = new System.Drawing.Point(441, 46);
-            this.txt_marca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_marca.Margin = new System.Windows.Forms.Padding(2);
             this.txt_marca.Name = "txt_marca";
             this.txt_marca.ReadOnly = true;
             this.txt_marca.Size = new System.Drawing.Size(144, 20);
@@ -117,7 +117,7 @@
             // txt_categoria
             // 
             this.txt_categoria.Location = new System.Drawing.Point(441, 93);
-            this.txt_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_categoria.Margin = new System.Windows.Forms.Padding(2);
             this.txt_categoria.Name = "txt_categoria";
             this.txt_categoria.ReadOnly = true;
             this.txt_categoria.Size = new System.Drawing.Size(144, 20);
@@ -137,7 +137,7 @@
             // txt_stock_actual
             // 
             this.txt_stock_actual.Location = new System.Drawing.Point(148, 137);
-            this.txt_stock_actual.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_stock_actual.Margin = new System.Windows.Forms.Padding(2);
             this.txt_stock_actual.Name = "txt_stock_actual";
             this.txt_stock_actual.ReadOnly = true;
             this.txt_stock_actual.Size = new System.Drawing.Size(144, 20);
@@ -157,7 +157,7 @@
             // btn_lupa_umedida
             // 
             this.btn_lupa_umedida.Location = new System.Drawing.Point(295, 93);
-            this.btn_lupa_umedida.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_lupa_umedida.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lupa_umedida.Name = "btn_lupa_umedida";
             this.btn_lupa_umedida.Size = new System.Drawing.Size(24, 19);
             this.btn_lupa_umedida.TabIndex = 10;
@@ -167,7 +167,7 @@
             // btn_lupa_categoria
             // 
             this.btn_lupa_categoria.Location = new System.Drawing.Point(588, 93);
-            this.btn_lupa_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_lupa_categoria.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lupa_categoria.Name = "btn_lupa_categoria";
             this.btn_lupa_categoria.Size = new System.Drawing.Size(24, 19);
             this.btn_lupa_categoria.TabIndex = 11;
@@ -178,7 +178,7 @@
             // 
             this.btn_cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cancelar.Location = new System.Drawing.Point(354, 137);
-            this.btn_cancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cancelar.Name = "btn_cancelar";
             this.btn_cancelar.Size = new System.Drawing.Size(80, 27);
             this.btn_cancelar.TabIndex = 12;
@@ -191,7 +191,7 @@
             // 
             this.btn_guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_guardar.Location = new System.Drawing.Point(449, 137);
-            this.btn_guardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_guardar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(80, 27);
             this.btn_guardar.TabIndex = 13;
@@ -204,7 +204,7 @@
             // 
             this.btn_nuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_nuevo.Location = new System.Drawing.Point(982, 31);
-            this.btn_nuevo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_nuevo.Margin = new System.Windows.Forms.Padding(2);
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(97, 69);
             this.btn_nuevo.TabIndex = 14;
@@ -216,7 +216,7 @@
             // 
             this.btn_actualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_actualizar.Location = new System.Drawing.Point(982, 115);
-            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(97, 69);
             this.btn_actualizar.TabIndex = 15;
@@ -228,7 +228,7 @@
             // 
             this.btn_eliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_eliminar.Location = new System.Drawing.Point(982, 200);
-            this.btn_eliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_eliminar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.Size = new System.Drawing.Size(97, 69);
             this.btn_eliminar.TabIndex = 16;
@@ -240,7 +240,7 @@
             // 
             this.btn_reporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_reporte.Location = new System.Drawing.Point(982, 286);
-            this.btn_reporte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_reporte.Margin = new System.Windows.Forms.Padding(2);
             this.btn_reporte.Name = "btn_reporte";
             this.btn_reporte.Size = new System.Drawing.Size(97, 69);
             this.btn_reporte.TabIndex = 17;
@@ -251,7 +251,7 @@
             // 
             this.btn_salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_salir.Location = new System.Drawing.Point(982, 373);
-            this.btn_salir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_salir.Margin = new System.Windows.Forms.Padding(2);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(97, 69);
             this.btn_salir.TabIndex = 18;
@@ -261,14 +261,11 @@
             // 
             // dgv_articulos
             // 
-            this.dgv_articulos.AllowUserToAddRows = false;
-            this.dgv_articulos.AllowUserToDeleteRows = false;
             this.dgv_articulos.AllowUserToOrderColumns = true;
             this.dgv_articulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_articulos.Location = new System.Drawing.Point(36, 243);
-            this.dgv_articulos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgv_articulos.Margin = new System.Windows.Forms.Padding(2);
             this.dgv_articulos.Name = "dgv_articulos";
-            this.dgv_articulos.ReadOnly = true;
             this.dgv_articulos.RowHeadersWidth = 51;
             this.dgv_articulos.RowTemplate.Height = 24;
             this.dgv_articulos.Size = new System.Drawing.Size(909, 242);
@@ -333,7 +330,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt_descripcion);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Operaciones";
             this.Load += new System.EventHandler(this.Form1_Load);

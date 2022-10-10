@@ -143,14 +143,14 @@ namespace ProyectoTiendita
         {
             string Rpta = "";
             Prop_Articulos oAr = new Prop_Articulos();
-            oAr.Codigo_ar = nCodigo_ar;
-            oAr.Descripcion_ar = txt_descripcion.Text.Trim();
-            oAr.Marca_ar = txt_marca.Text.Trim();
-            oAr.Codigo_um = 1;
-            oAr.Codigo_ca = 1;
-            oAr.Stock_actual = Convert.ToInt32(txt_stock_actual.Text);
-            oAr.Fecha_crea = DateTime.Now.ToString("yyyy-MM-dd");
-            oAr.Fecha_modifica = DateTime.Now.ToString("yyyy-MM-dd");
+            oAr.codigo_ar = nCodigo_ar;
+            oAr.descripcion_ar = txt_descripcion.Text.Trim();
+            oAr.marca_ar = txt_marca.Text.Trim();
+            oAr.codigo_um = 1;
+            oAr.codigo_ca = 1;
+            oAr.stock_actual = Convert.ToInt32(txt_stock_actual.Text);
+            oAr.fecha_crea = DateTime.Now.ToString("yyyy-MM-dd");
+            oAr.fecha_modifica = DateTime.Now.ToString("yyyy-MM-dd");
 
             Data_Articulos Datos = new Data_Articulos();
             Rpta = Datos.Guardar_ar(nEstado_guarda, oAr);
@@ -191,6 +191,7 @@ namespace ProyectoTiendita
         private void dgv_articulos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             this.Selecciona_item();
+            
         }
 
         private void btn_salir_Click(object sender, EventArgs e)

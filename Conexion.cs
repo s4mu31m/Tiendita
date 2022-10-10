@@ -26,7 +26,7 @@ namespace ProyectoTiendita
             this.Server = "localhost";
             this.Port = "3306";
             this.User = "root";
-            this.Password = "Sierra21";
+            this.Password = "root";
         } 
 
         public MySqlConnection CrearConexion()
